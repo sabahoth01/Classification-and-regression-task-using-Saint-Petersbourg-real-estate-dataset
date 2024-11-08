@@ -44,7 +44,7 @@ The dataset contains information about real estate listings, including various f
 - studio: Boolean indicating if the property is a studio apartment
 - total_area: Total area of the property in square meters
 - total_images: Number of photos in the listing
-Additional Economic Data
+#### Additional Economic Data
 - Currency Exchange Rate:
 USD to RUB exchange rate for the period 2014-2019. This data allows for analysis of how currency fluctuations impact the real estate market.
 Central Bank of Russia Data:
@@ -67,10 +67,6 @@ Load and inspect the dataset to understand its structure, feature types, and any
 - **Outlier detection**: Identify and address outliers, especially in features like price and area.
 - **Encoding categorical variables**: Encode categorical features using one-hot encoding or label encoding.
 
-```python
-# Example of handling missing values
-df.fillna(df.mean(), inplace=True)
-```
 
 ### 3. Exploratory Data Analysis (EDA)
 
