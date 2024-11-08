@@ -4,7 +4,7 @@
   
 ## Project Overview
 
-This project aims to analyze the Saint-Petersburg real estate market using a machine learning pipeline. The goal is to develop models for both classification and regression tasks, leveraging the real estate data to predict property prices (regression) and classify property types (classification).
+This project aims to analyze the Saint-Petersburg real estate market from 2014-2019 using a machine learning pipeline. The goal is to develop models for both classification and regression tasks, leveraging the real estate data to predict property prices (regression) and classify property types (expensive, affordable).
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -19,10 +19,41 @@ This project aims to analyze the Saint-Petersburg real estate market using a mac
 
 ## Dataset
 
-The dataset provides information on real estate listings in Saint-Petersburg, including:
-- **Numerical features**: price, area, rooms, floor, total floors, etc.
-- **Categorical features**: district, property type, and others.
+The dataset contains information about real estate listings, including various features of properties and their surrounding areas. The data can be used for analysis, prediction, and insights into the real estate market.
 
+### Features
+- airports_nearest: Distance to the nearest airport in meters
+- balcony: Number of balconies
+- ceiling_height: Ceiling height in meters
+- cityCenters_nearest: Distance to the city center in meters
+- days_exposition: Number of days the listing was active (from publication to removal)
+- first_day_exposition: Publication date
+- floor: Floor number of the property
+- floors_total: Total number of floors in the building
+- is_apartment: Boolean indicating if the property is an apartment
+- kitchen_area: Kitchen area in square meters
+- last_price: Price at the time of listing removal
+- living_area: Living area in square meters
+- locality_name: Name of the locality
+- open_plan: Boolean indicating if the property has an open floor plan
+- parks_around3000: Number of parks within a 3 km radius
+- parks_nearest: Distance to the nearest park in meters
+- ponds_around3000: Number of ponds/water bodies within a 3 km radius
+- ponds_nearest: Distance to the nearest pond/water body in meters
+- rooms: Number of rooms
+- studio: Boolean indicating if the property is a studio apartment
+- total_area: Total area of the property in square meters
+- total_images: Number of photos in the listing
+Additional Economic Data
+- Currency Exchange Rate:
+USD to RUB exchange rate for the period 2014-2019. This data allows for analysis of how currency fluctuations impact the real estate market.
+Central Bank of Russia Data:
+
+- Key interest rate:
+The central bank's key policy rate, which influences lending rates and overall economic conditions.
+Inflation rate: The rate of price increases in the economy, which can affect real estate values and investment decisions.
+
+source kaggle: [Real Estate Saint Petersburg 2014 - 2019](https://www.kaggle.com/datasets/litvinenko630/real-estate-saint-petersburg-2014-2019)
 
 ## Project Workflow
 
