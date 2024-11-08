@@ -138,7 +138,3 @@ The results for classification and regression tasks will be printed, and the tra
 ## Contributing
 
 Contributions are welcome! Please fork this repository and submit a pull request if you have any ideas or improvements.
-
-## License
-
-This project is licensed under the MIT License.
